@@ -1,0 +1,194 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Adyax</title>
+  <meta name="description" content="Adyax Landing Page">
+  <meta name="author" content="Adyax">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--adaptivity: adds scrolls etc to let the mobile version work-->
+
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <!--<link rel="stylesheet" href="styles/adaptivity.css">-->
+</head>
+
+<body>
+
+	<header>
+		<div class="logo_wrapper">
+			<div class="logo_image_wrapper">
+				<a href="#" class="hyperlink_main-page">
+					<img src="images/logo.png" class="logo">
+				</a>
+			</div>
+			<div class="logo_slogan">a better experience</div>
+		</div>
+	</header>
+
+	<section class="information_wrapper">
+		<div class="container">
+			<p class="information_title">Frond-End Developer
+				<span class="information_title_dot">.</span>
+			</p>
+			<p class="information_description">Adyax’s core values take top priority: we care for our client, and we care for our people. Staff and clients work in partnership with consistent,  transparent communication</p>
+			<hr class="section_bound">
+		</div>
+	</section>
+
+	<section class="form_wrapper">
+		
+		<form action="form.php" method="post" class="form_info">
+			
+			<div class="container">
+				<div class="column_1">
+					<div class="form_input">
+   						<label class="form_field_name" for="name">Your name</label>
+    					<input class="input_field" type="text" id="name" name="name" placeholder="First / last name">	
+    				</div>
+    				<div class="form_input">
+    					<label class="form_field_name" for="email">Your email</label>
+    					<input class="input_field" type="email" id="email" name="email" placeholder="xxx@gmail.com">
+    				</div>
+    				<div class="form_input">
+    					<label class="form_field_name" for="url">Your portolio / github</label>
+    					<input class="input_field" type="url" id="url" name="portfolio" placeholder="https://xxx.io">
+    				</div>
+    			</div>
+    			<div class="column_2">
+    				<div class="form_input">   						
+    					<label class="form_field_name" for="message">Message</label>
+    					<textarea class="input_field input_message" type="text" id="message" name="message" placeholder="Enter your message..."></textarea>
+    				</div>
+    				<div class="form_input">
+    					<label for="file" class="file_uploading_input">
+    						<span class="form_field_name">CV</span>
+								<div class="upload_file_container input_field">
+									<span class="upload_file_name">Choose file</span>
+									<input class="upload_file_input" type="file" name="file" id="file" name="CV">
+									<span class="upload_file_button">Upload</span>
+    							</div>
+    					</label>
+    				</div>
+      			</div>
+      		</div>
+
+			<div class="choose_answer container">
+				<p class="question">Graduated from htmlacademy.ru?</p>
+				<div class="radio_button">
+					<label class="radio_button_variant">
+						<input class="radio" type="radio" name="Graduated HTML-academy" checked>
+						<p class="checkmark_radio">Yes</p>
+					</label>
+				</div>
+				<div class="radio_button">
+					<label class="radio_button_variant">
+						<input class="radio" type="radio" name="Graduated HTML-academy">
+						<p class="checkmark_radio">No</p>
+					</label>
+				</div>
+			</div>
+	
+			<div class="checkbox_group container">
+				<p class="instruction">*Please mark skills you are best in, and types of tasks you are good at</p>
+				<div class="column_1">
+					<ul class="column_items_wrapper">
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="jQuery" checked>
+								<span class="checkmark_checkbox">jQuery</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="GRUNT">
+								<span class="checkmark_checkbox">Use GRUNT</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="HAML">
+								<span class="checkmark_checkbox">HAML</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="SASS">
+								<span class="checkmark_checkbox">SASS</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="LESS">
+							<span class="checkmark_checkbox">LESS</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="Coffee Script">
+								<span class="checkmark_checkbox">Coffee Script</span>
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div class="column_2">
+					<ul class="column_items_wrapper">
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="Jade">
+								<span class="checkmark_checkbox">Jade</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="Stylus">
+								<span class="checkmark_checkbox">Stylus</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="Angular">
+								<span class="checkmark_checkbox">Know Angular</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="Front-end development for Android">
+								<span class="checkmark_checkbox">Front-end development for Android</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="Front-end development for iOS">
+								<span class="checkmark_checkbox">Front-end development for iOS</span>
+							</label>
+						</li>
+						<li class="checkbox_item">
+							<label class="checkbox_variant">
+								<input class="checkbox" type="checkbox" name="Front-end development for Windows Phone">
+								<span class="checkmark_checkbox">Front-end development for Windows Phone</span>
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="submit_button_group">
+			  	<button class="submit_button_item submit_button_content" type="submit">Submit</button>	
+			</div>
+
+		</form>
+		
+	</section>		
+
+	<section class="page_bottom">
+		<div class="page_bottom_wrapper container">
+			<p class="page_bottom_text">Adyax specializes in working with multi-national, multi-brand companies on a wide range of customer, client and employee-facing solutions.</p>
+		</div>
+	</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
